@@ -2,7 +2,8 @@
   "name": "deskflow-triage",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build"
+    "build": "npm install --prefix backend",
+    "start": "node backend/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
