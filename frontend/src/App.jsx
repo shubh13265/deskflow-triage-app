@@ -30,7 +30,7 @@ export default function App() {
   const defaultApiBase = import.meta.env.VITE_API_URL || (
     window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
       ? 'http://localhost:5000'
-      : '/api'
+      : 'https://deskflow-triage-app-1.onrender.com'
   );
   const [apiBase, setApiBase] = useState(() => {
     const saved = localStorage.getItem('deskflow_api_base');
@@ -459,7 +459,7 @@ export default function App() {
                           </div>
                           
                           {ticket.slaBreached && (
-                           <span className="breach-alert">
+                            <span className="breach-alert">
                               <AlertTriangle size={12} />
                               <span>SLA Breached</span>
                             </span>
