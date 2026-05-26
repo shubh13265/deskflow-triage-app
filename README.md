@@ -3,7 +3,7 @@
 DeskFlow is a full-stack web application designed for support teams to triage, manage, and track customer support tickets efficiently. It strictly enforces state transition rules and Service Level Agreement (SLA) targets based on ticket priority.
 
 ## 🚀 Live Demos
-- **Frontend (Deployed on Netlify)**: [Live Site](https://deskflow-triage-shubham.netlify.app/)
+- **Frontend (Deployed on Netlify)**: [Live Site👈](https://deskflow-triage-shubham.netlify.app/)
 - **Backend API (Deployed on Render)**: [https://deskflow-triage-app-1.onrender.com](https://deskflow-triage-app-1.onrender.com)
 
 ## 🛠️ Tech Stack
@@ -55,7 +55,3 @@ cd frontend
 npm install
 npm run dev
 ```
-The frontend will start on `http://localhost:5173`. You can click the "Settings" gear icon in the app header to ensure it points to `http://localhost:5000` for local development.
-
----
-*Built with ❤️ for the DeskFlow Triage Challenge.*
